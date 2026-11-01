@@ -1,0 +1,23 @@
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+
+# Local Android tooling and native build caches
+sdk/
+android-sdk/
+.cxx/
+.externalNativeBuild/
+
+# Generated packages and private signing material
+*.apk
+*.aab
+*.apks
+*.jks
+*.keystore
+
+# Local environment overrides
+.env
+.env.*
+!.env.example
